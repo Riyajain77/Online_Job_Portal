@@ -16,13 +16,23 @@ University: IIT Gandhinagar
 Department: Chemical Engineering
 
 About the Project :
-Career Hub is an online job portal web application developed by Riya Jain. This platform enables user registration, login, and seamless navigation to a dedicated job portal. Users can sign up, log in, and explore job opportunities by searching for specific roles. The application also allows users to post job listings and apply for positions using provided application links.
+Career Hub is an online job portal web application developed by Riya Jain. This platform enables user registration, login, and seamless navigation to a dedicated job portal. Users can sign up, log in, and explore job opportunities by searching for specific roles. The application also allows users to post job listings and apply for positions using provided application links. 
 
 Tech Stack :
 The application is built using HTML, CSS, React JS, and Firebase.
 
 Run Locally : 
 To run the project locally, follow these steps:
+
+Clone the project from GitHub ([https://github.com/Riyajain77/hiring_portal_challenge_codepth./tree/my-new-branch)
+After successfully logging in, an alert in my login->index.html file directs the user to the job portal page using the following code. To run the file, exclude the login folder, clone the entire project, and execute the npm run build command in the terminal. Subsequently, generate a local host for the job portal page and then include the login folder in the project and replace 'http://localhost:5173/' in the login folder with the actual local host.
+
+```javascript
+alert('User sign-up successful!');
+
+// Redirect to the job portal page
+window.location.href = 'http://localhost:5173/';
+```
 
 Clone the project from GitHub ([https://github.com/Riyajain77/hiring_portal_challenge_codepth./tree/my-new-branch)
 In case the branch in my repository is mentioned as main change it to my-new-branch.
