@@ -25,6 +25,7 @@ Run Locally :
 To run the project locally, follow these steps:
 
 Clone the project from GitHub ([https://github.com/Riyajain77/hiring_portal_challenge_codepth./tree/my-new-branch)
+
 After successfully logging in, an alert in my login->index.html file directs the user to the job portal page using the following code. To run the file, exclude the login folder, clone the entire project, and execute the npm run build command in the terminal. Subsequently, generate a local host for the job portal page and then include the login folder in the project and replace 'http://localhost:5173/' in the login folder with the actual local host.
 
 ```javascript
