@@ -1,4 +1,4 @@
-# hiring_portal_challenge_codepth.
+# Online_Job_Portal
 In case it is the main branch then go to the my-new-branch, there you will find this project.
 
 
